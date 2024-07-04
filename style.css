@@ -1,0 +1,80 @@
+:root{
+  --offblack: hsl(0, 0%, 8%);
+  --darkgray: hsl(0, 0%, 12%);
+  --gray: hsl(0, 0%, 20%);
+  --primary: hsl(75, 94%, 57%);
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+main{
+  height: 100vh;
+  background-color: var(--offblack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section{  
+  text-align: center;
+  background-color: var(--darkgray);
+  width: 304px;
+  padding: 40px;
+  color: white;
+  border-radius: 12px;
+}
+
+img{
+  border-radius: 50%;
+  max-width: 88px;
+  max-height: 88px;
+}
+
+ul{
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0px;
+}
+
+li{
+  background-color: var(--gray);
+  padding: 12px;
+  list-style: none;
+  border-radius: 8px;
+}
+
+li:hover{
+  background-color: var(--primary);
+  color: var(--gray);
+}
+
+.name{
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.location{
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.ocupation{
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+a, a:active, a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.location {
+  color: var(--primary);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
