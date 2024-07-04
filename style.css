@@ -56,9 +56,11 @@ li{
 
 li:hover{
   background-color: var(--primary);
-  color: var(--gray);
 }
 
+li:hover > a {
+  color: var(--gray);
+}
 .name{
   margin-top: 24px;
   margin-bottom: 4px;
